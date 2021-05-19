@@ -12,17 +12,17 @@ import org.openqa.selenium.WebDriver;
 
 import static com.jeferson.framework.tools.Report.extentTest;
 
-public class TestCase extends BaseTest {
+public class InputForms extends BaseTest {
 
     private final WebDriver driver = DriverManager.getDriver();
     private final Task task = new Task(driver);
 
-    @Test /* opcional Junit ou TestNg */
-    public void fulanoTituloTest(){
-        Report.createTest("Nome de titulo para teste");
+    @Test
+    public void simpleFormDemo(){
+        Report.createTest("Teste 'Input Forms");
         DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
         extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
         task.fulanoParteAcoes();
-        extentTest.log(Status.INFO, "Finalmente de teste", Screenshot.screenshotBase64(driver));
+        extentTest.log(Status.INFO, "Finalmente de testes", Screenshot.screenshotBase64(driver));
     }
 }
