@@ -1,4 +1,4 @@
-package com.jeferson.testcases;
+package com.jeferson.testcases.inputForms;
 
 import com.aventstack.extentreports.Status;
 import com.jeferson.framework.supports.BaseTest;
@@ -13,29 +13,27 @@ import org.openqa.selenium.WebDriver;
 
 import static com.jeferson.framework.tools.Report.extentTest;
 
-public class InputFormsTest extends BaseTest {
+public class SimpleFormDemoTest extends BaseTest {
 
     private final WebDriver driver = DriverManager.getDriver();
     private final HomeTask homeTask = new HomeTask(driver);
     private final SimpleFormDemoTask simpleFormDemoTask = new SimpleFormDemoTask(driver);
 
     @Test
-    public void SimpleFormDemoTest(){
-        Report.createTest("Teste 'Input Forms");
+    public void singleInputField(){
+        Report.createTest("Teste 'Single input field");
         DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
         extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
         homeTask.entrarSimpleFormDemo();
         simpleFormDemoTask.singleInputField("Teste");
-        simpleFormDemoTask.twoInputFields("15", "10");
     }
-    
+
     @Test
-    public void SimpleFormDemoTest(){
-        Report.createTest("Teste 'Input Forms");
+    public void twoInputFields(){
+        Report.createTest("Teste 'Two input fields");
         DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
         extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
         homeTask.entrarSimpleFormDemo();
-        simpleFormDemoTask.singleInputField("Teste");
         simpleFormDemoTask.twoInputFields("15", "10");
     }
 }
