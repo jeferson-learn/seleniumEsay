@@ -1,12 +1,12 @@
-# Selenium Esay
+# Selenium Easy
 
 ## 📄 Objetivo
-Aprende fazer com teste diferentes os elementos com automação de web no site 'SELENIUM ESAY'
+Aprende fazer com teste diferentes os elementos com automação de web no site 'SELENIUM EASY'
 
 ## ✅ Checklist
 O que estou fazendo:
 - [ ] Input Forms
-  - [ ] Simple Form Demo
+  - [x] Simple Form Demo
   - [ ] Checkbox Demo
   - [ ] Radio Buttons Demo
   - [ ] Select Dropdown List
