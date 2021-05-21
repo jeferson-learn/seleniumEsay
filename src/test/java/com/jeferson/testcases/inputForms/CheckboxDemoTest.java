@@ -9,7 +9,6 @@ import com.jeferson.framework.webdrivers.DriverManager;
 import com.jeferson.tasks.HomeTask;
 import com.jeferson.tasks.inputforms.CheckboxDemoTask;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.WebDriver;
 
 import static com.jeferson.framework.tools.Report.extentTest;
 
