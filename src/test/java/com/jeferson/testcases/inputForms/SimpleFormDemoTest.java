@@ -15,7 +15,6 @@ import static com.jeferson.framework.tools.Report.extentTest;
 
 public class SimpleFormDemoTest extends BaseTest {
 
-    private final WebDriver driver = DriverManager.getDriver();
     private final HomeTask homeTask = new HomeTask(driver);
     private final SimpleFormDemoTask simpleFormDemoTask = new SimpleFormDemoTask(driver);
 
