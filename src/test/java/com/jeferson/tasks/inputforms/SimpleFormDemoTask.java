@@ -23,6 +23,7 @@ public class SimpleFormDemoTask {
         simpleFormDemoApp.enterMessageTextField().sendKeys(text);
         simpleFormDemoApp.showMessageButton().click();
         Assertions.assertEquals(text, simpleFormDemoApp.yourMessageText().getText());
+        Assertions.assertTrue(text.equals(simpleFormDemoApp.yourMessageText().getText()));
     }
 
     public void twoInputFields(String a, String b) {
