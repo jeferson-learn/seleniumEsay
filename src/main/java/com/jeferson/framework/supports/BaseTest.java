@@ -16,7 +16,6 @@ public class BaseTest extends DriverFactory {
         Report.configurarExtentReport();
         driver = getBrowser(Drivers.CHROME);
         DriverManager.setDriver(driver);
-        DriverManager.getDriver();
         driver.manage().window().maximize();
     }
 
