@@ -20,7 +20,7 @@ public class SimpleFormDemoTest extends BaseTest {
 
     @Test
     public void singleInputField(){
-        Report.createTest("Teste 'Single input field");
+        Report.createTest("Teste 'Single input field'");
         DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
         extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
         homeTask.entrarSimpleFormDemo();
@@ -29,7 +29,7 @@ public class SimpleFormDemoTest extends BaseTest {
 
     @Test
     public void twoInputFields(){
-        Report.createTest("Teste 'Two input fields");
+        Report.createTest("Teste 'Two input fields'");
         DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
         extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
         homeTask.entrarSimpleFormDemo();
