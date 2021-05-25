@@ -7,8 +7,8 @@ Aprende fazer com teste diferentes os elementos com automação de web no site '
 O que estou fazendo:
 - [ ] Input Forms
   - [x] Simple Form Demo
-  - [ ] Checkbox Demo
-  - [ ] Radio Buttons Demo
+  - [x] Checkbox Demo
+  - [x] Radio Buttons Demo
   - [ ] Select Dropdown List
   - [ ] Input Form Submit
   - [ ] Ajax Form Submit
