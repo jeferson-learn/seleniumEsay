@@ -22,6 +22,10 @@ public class HomeTask {
         homeApp.menuCheckboxDemoButton().click();
     }
     public void entrarRadioButtonsDemo(){
+        if (homeApp.fechaPopup().isDisplayed()){
+            homeApp.fechaPopup().click();
+            System.out.println("fechou popup");
+        }
         homeApp.abaInputFormsButton().click();
         homeApp.menuRadioButtonsDemoButton().click();
     }
@@ -40,6 +44,9 @@ public class HomeTask {
     public void entrarJQuerySelectDropdown(){
         homeApp.abaInputFormsButton().click();
         homeApp.menuJQuerySelectDropdownButton().click();
+    }
+    public void fecharPopup() {
+        homeApp.fechaPopup().click();
     }
 
 }
