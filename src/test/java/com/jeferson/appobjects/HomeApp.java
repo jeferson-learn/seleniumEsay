@@ -36,4 +36,7 @@ public class HomeApp {
     public WebElement menuJQuerySelectDropdownButton() {
         return driver.findElement(By.linkText("JQuery Select dropdown"));
     }
+    public WebElement fechaPopup() {
+        return driver.findElement(By.cssSelector("#at-cv-lightbox-header #at-cv-lightbox-close"));
+    }
 }
