@@ -34,4 +34,30 @@ public class RadioButtonsDemoTest extends BaseTest {
         homeTask.entrarRadioButtonsDemo();
         radioButtonsDemoTask.radioButtonDemoFemale();
     }
+
+    /** Opções "Male" ou "Female **/
+    @Test
+    public void radioButtonDemoMaleOrFemale() {
+        String male = "Male", female = "Female";
+        Report.createTest("Teste 'Radio buttons demo'");
+        DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
+        extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
+        homeTask.entrarRadioButtonsDemo();
+        radioButtonsDemoTask.radioButtonsDemoSex(female);
+    }
+
+    /**-Opções "Male" ou "Female"
+     * -(Digite '0') grupo idade 0 - 5
+     * -(Digite '1') grupo idade 5 - 15
+     * -(Digite '2') grupo idade 15 - 50 **/
+    @Test
+    public void radioButtonDemoMaleOrFemaleAndAge() {
+        String male = "Male", female = "Female";
+        Report.createTest("Teste 'Group radio buttons demo'");
+        DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
+        extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
+        homeTask.entrarRadioButtonsDemo();
+        radioButtonsDemoTask.groupRadioButtonDemoSexAge(male, 0);
+    }
+
 }
