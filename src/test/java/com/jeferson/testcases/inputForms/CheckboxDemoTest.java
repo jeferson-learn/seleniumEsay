@@ -34,4 +34,27 @@ public class CheckboxDemoTest extends BaseTest {
         homeTask.entrarCheckboxDemo();
         checkboxDemoTask.multipleCheckboxDemo();
     }
+
+    @Test
+    public void multipleCheckboxDemoCheckAll() {
+        Report.createTest("Teste 'Multiple checkbox demo' e check all");
+        DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
+        extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
+        homeTask.entrarCheckboxDemo();
+        checkboxDemoTask.multipleCheckboxDemoCheckAll();
+    }
+
+    /**-Maximo 4 parametros dentro metodo (linha 58)
+     * -(Digite '0') é "Option 1"
+     * -(Digite '1') é "Option 2"
+     * -(Digite '2') é "Option 3"
+     * -(Digite '3') é "Option 4" **/
+    @Test
+    public void multipleCheckboxDemoChooseClick() {
+        Report.createTest("Teste 'Multiple checkbox demo' e escolhe para clicar no checkbox");
+        DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
+        extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
+        homeTask.entrarCheckboxDemo();
+        checkboxDemoTask.chooseSelectCheckboxDemo(1,2);
+    }
 }
