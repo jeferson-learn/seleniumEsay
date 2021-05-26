@@ -4,6 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.util.List;
+
 public class CheckboxDemoApp {
     private final WebDriver driver;
 
@@ -30,6 +32,15 @@ public class CheckboxDemoApp {
     }
     public WebElement option4() {
         return driver.findElement(By.xpath("//label[text()='Option 4']"));
+    }
+
+    public List<WebElement> checkboxs() {
+//        return driver.findElements(By.className("cb1-element"));
+        return driver.findElements(By.xpath("//*[@class='cb1-element']//.."));
+    }
+
+    public WebElement checkAllButton() {
+        return driver.findElement(By.id("check1"));
     }
 
 
