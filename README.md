@@ -9,9 +9,9 @@ O que estou fazendo:
   - [x] Simple Form Demo
   - [x] Checkbox Demo
   - [x] Radio Buttons Demo
-  - [ ] Select Dropdown List
-  - [ ] Input Form Submit
-  - [ ] Ajax Form Submit
+  - [x] Select Dropdown List
+  - [x] Input Form Submit
+  - [x] Ajax Form Submit
   - [ ] JQuery Select dropdown
 - [ ] Date pickers
   - [ ] Bootstrap Date Picker
