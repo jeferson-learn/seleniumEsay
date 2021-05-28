@@ -2,13 +2,11 @@ package com.jeferson.framework.supports;
 
 import com.github.javafaker.Faker;
 
-import java.util.Locale;
-
 public class Fakers {
 
     private Faker faker = new Faker();
     private String email, emailReference, password;
-    private String firstName, lastName;
+    private String firstName, lastName, fullName;
     private String company, address1, address2, city, postalCode;
     private String phone, mobilePhone;
 
@@ -33,6 +31,11 @@ public class Fakers {
     public String getLastName() {
         lastName = faker.name().lastName();
         return lastName;
+    }
+
+    public String getFullName() {
+        fullName = faker.name().fullName();
+        return fullName;
     }
 
     public String getPassword() {
