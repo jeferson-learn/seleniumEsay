@@ -1,5 +1,6 @@
 package com.jeferson.appobjects;
 
+import com.jeferson.framework.supports.Wait;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,9 +8,11 @@ import org.openqa.selenium.WebElement;
 public class HomeApp {
 
     private final WebDriver driver;
+    private final Wait wait;
 
     public HomeApp(WebDriver driver) {
         this.driver = driver;
+        this.wait = new Wait(driver);
     }
 
     public WebElement abaInputFormsButton() {
@@ -37,6 +40,7 @@ public class HomeApp {
         return driver.findElement(By.linkText("JQuery Select dropdown"));
     }
     public WebElement fechaPopup() {
+        wait.waitElementToBeClickable(By.cssSelector("#at-cv-lightbox-header #at-cv-lightbox-close"));
         return driver.findElement(By.cssSelector("#at-cv-lightbox-header #at-cv-lightbox-close"));
     }
 }
