@@ -42,6 +42,10 @@ public class HomeTask {
         homeApp.menuAjaxFormSubmitButton().click();
     }
     public void entrarJQuerySelectDropdown(){
+        if (homeApp.fechaPopup().isDisplayed()){
+            homeApp.fechaPopup().click();
+            System.out.println("fechou popup");
+        }
         homeApp.abaInputFormsButton().click();
         homeApp.menuJQuerySelectDropdownButton().click();
     }
