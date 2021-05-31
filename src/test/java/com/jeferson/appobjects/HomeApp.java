@@ -15,6 +15,10 @@ public class HomeApp {
         this.wait = new Wait(driver);
     }
 
+    public WebElement fechaPopup() {
+        wait.waitElementToBeClickable(By.cssSelector("#at-cv-lightbox-header #at-cv-lightbox-close"));
+        return driver.findElement(By.cssSelector("#at-cv-lightbox-header #at-cv-lightbox-close"));
+    }
     public WebElement abaInputFormsButton() {
         return driver.findElement(By.linkText("Input Forms"));
     }
@@ -39,8 +43,14 @@ public class HomeApp {
     public WebElement menuJQuerySelectDropdownButton() {
         return driver.findElement(By.linkText("JQuery Select dropdown"));
     }
-    public WebElement fechaPopup() {
-        wait.waitElementToBeClickable(By.cssSelector("#at-cv-lightbox-header #at-cv-lightbox-close"));
-        return driver.findElement(By.cssSelector("#at-cv-lightbox-header #at-cv-lightbox-close"));
+
+    public WebElement abaDatePickersButton() {
+        return driver.findElement(By.linkText("Date pickers"));
+    }
+    public WebElement menuBootstrapDatePickerButton() {
+        return driver.findElement(By.linkText("Bootstrap Date Picker"));
+    }
+    public WebElement menuJQueryDatePickerButton() {
+        return driver.findElement(By.linkText("JQuery Date Picker"));
     }
 }
