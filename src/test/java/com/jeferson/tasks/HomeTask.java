@@ -53,4 +53,9 @@ public class HomeTask {
         homeApp.fechaPopup().click();
     }
 
+    public void entrarBootstrapDatePicker() {
+        homeApp.abaDatePickersButton().click();
+        homeApp.menuBootstrapDatePickerButton().click();
+    }
+
 }
