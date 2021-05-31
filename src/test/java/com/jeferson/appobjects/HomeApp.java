@@ -53,4 +53,22 @@ public class HomeApp {
     public WebElement menuJQueryDatePickerButton() {
         return driver.findElement(By.linkText("JQuery Date Picker"));
     }
+    public WebElement abaTableButton() {
+        return driver.findElement(By.linkText("Table"));
+    }
+    public WebElement menuTablePaginationButton() {
+        return driver.findElement(By.linkText("Table Pagination"));
+    }
+    public WebElement menuTableDataSearchButton() {
+        return driver.findElement(By.linkText("Table Data Search"));
+    }
+    public WebElement menuTableFilterButton() {
+        return driver.findElement(By.linkText("Table Filter"));
+    }
+    public WebElement menuTableSortSearchButton() {
+        return driver.findElement(By.linkText("Table Sort & Search"));
+    }
+    public WebElement menuTableDataDownloadButton() {
+        return driver.findElement(By.linkText("Table Data Download"));
+    }
 }
