@@ -58,4 +58,9 @@ public class HomeTask {
         homeApp.menuBootstrapDatePickerButton().click();
     }
 
+    public void entrarJQueryDatePicker() {
+        homeApp.abaDatePickersButton().click();
+        homeApp.menuJQueryDatePickerButton().click();
+    }
+
 }
