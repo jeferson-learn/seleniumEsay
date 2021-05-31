@@ -13,6 +13,9 @@ public class HomeTask {
         homeApp = new HomeApp(driver);
     }
 
+    public void fecharPopup() {
+        homeApp.fechaPopup().click();
+    }
     public void entrarSimpleFormDemo(){
         homeApp.abaInputFormsButton().click();
         homeApp.menuSimpleFormDemoButton().click();
@@ -49,18 +52,32 @@ public class HomeTask {
         homeApp.abaInputFormsButton().click();
         homeApp.menuJQuerySelectDropdownButton().click();
     }
-    public void fecharPopup() {
-        homeApp.fechaPopup().click();
-    }
-
     public void entrarBootstrapDatePicker() {
         homeApp.abaDatePickersButton().click();
         homeApp.menuBootstrapDatePickerButton().click();
     }
-
     public void entrarJQueryDatePicker() {
         homeApp.abaDatePickersButton().click();
         homeApp.menuJQueryDatePickerButton().click();
     }
-
+    public void entrarTablePagination() {
+        homeApp.abaTableButton().click();
+        homeApp.menuTablePaginationButton().click();
+    }
+    public void entrarTableDataSearch() {
+        homeApp.abaTableButton().click();
+        homeApp.menuTableDataSearchButton().click();
+    }
+    public void entrarTableFilter() {
+        homeApp.abaTableButton().click();
+        homeApp.menuTableFilterButton().click();
+    }
+    public void entrarTableSortSearch() {
+        homeApp.abaTableButton().click();
+        homeApp.menuTableSortSearchButton().click();
+    }
+    public void entrarTableDataDownload() {
+        homeApp.abaTableButton().click();
+        homeApp.menuTableDataDownloadButton().click();
+    }
 }
