@@ -80,4 +80,64 @@ public class HomeTask {
         homeApp.abaTableButton().click();
         homeApp.menuTableDataDownloadButton().click();
     }
+    public void entrarJQueryDownloadProgressBars() {
+        homeApp.abaProgressBarsButton().click();
+        homeApp.menuJQueryDownloadProgressBarsButton().click();
+    }
+    public void entrarBootstrapProgressBar() {
+        homeApp.abaProgressBarsButton().click();
+        homeApp.menuBootstrapProgressBarButton().click();
+    }
+    public void entrarDragDropSliders() {
+        homeApp.abaProgressBarsButton().click();
+        homeApp.menuDragDropSlidersButton().click();
+    }
+    public void entrarBootstrapAlerts() {
+        homeApp.abaAlertsModalsButton().click();
+        homeApp.menuBootstrapAlertsButton().click();
+    }
+    public void entrarBootstrapModals() {
+        homeApp.abaAlertsModalsButton().click();
+        homeApp.menuBootstrapModalsButton().click();
+    }
+    public void entrarWindowPopup() {
+        homeApp.abaAlertsModalsButton().click();
+        homeApp.menuWindowPopupModalButton().click();
+    }
+    public void entrarProgressBarModal() {
+        homeApp.abaAlertsModalsButton().click();
+        homeApp.menuProgressBarModalButton().click();
+    }
+    public void entrarJavascriptAlerts() {
+        homeApp.abaAlertsModalsButton().click();
+        homeApp.menuJavascriptAlertsButton().click();
+    }
+    public void entrarFileDownload() {
+        homeApp.abaAlertsModalsButton().click();
+        homeApp.menuFileDownloadButton().click();
+    }
+    public void entrarBootstrapListBox() {
+        homeApp.abaListBoxButton().click();
+        homeApp.menuBootstrapListBoxButton().click();
+    }
+    public void entrarJQueryListBox() {
+        homeApp.abaListBoxButton().click();
+        homeApp.menuJQueryListBoxButton().click();
+    }
+    public void entrarDataListFilter() {
+        homeApp.abaListBoxButton().click();
+        homeApp.menuDataListFilterButton().click();
+    }
+    public void entrarDragAndDrop() {
+        homeApp.abaOthersButton().click();
+        homeApp.menuDragAndDropButton().click();
+    }
+    public void entrarDynamicDataLoading() {
+        homeApp.abaOthersButton().click();
+        homeApp.menuDynamicDataLoadingButton().click();
+    }
+    public void entrarChartsDemo() {
+        homeApp.abaOthersButton().click();
+        homeApp.menuChartsDemoButton().click();
+    }
 }
