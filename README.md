@@ -5,21 +5,21 @@ Aprende fazer com teste diferentes os elementos com automação de web no site '
 
 ## ✅ Checklist
 O que estou fazendo:
-- [ ] Input Forms
+- [x] Input Forms
   - [x] Simple Form Demo
   - [x] Checkbox Demo
   - [x] Radio Buttons Demo
   - [x] Select Dropdown List
   - [x] Input Form Submit
   - [x] Ajax Form Submit
-  - [ ] JQuery Select dropdown
-- [ ] Date pickers
-  - [ ] Bootstrap Date Picker
-  - [ ] JQuery Date Picker
+  - [x] JQuery Select dropdown
+- [x] Date pickers
+  - [x] Bootstrap Date Picker
+  - [x] JQuery Date Picker
 - [ ] Table
-  - [ ] Table Pagination
-  - [ ] Table Data Search
-  - [ ] Table Filter
+  - [x] Table Pagination
+  - [x] Table Data Search
+  - [x] Table Filter
   - [ ] Table Sort & Search
   - [ ] Table Data Download
 - [ ] Progress Bars
