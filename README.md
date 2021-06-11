@@ -22,10 +22,10 @@ O que estou fazendo:
   - [x] Table Filter
   - [x] Table Sort & Search
   - [x] Table Data Download
-- [ ] Progress Bars
-  - [ ] JQuery Download Progress bars
-  - [ ] Bootstrap Progress bar
-  - [ ] Drag & Drop Sliders
+- [x] Progress Bars
+  - [x] JQuery Download Progress bars
+  - [x] Bootstrap Progress bar
+  - [x] Drag & Drop Sliders
 - [ ] Alerts & Modals
   - [ ] Bootstrap Alerts
   - [ ] Bootstrap Modals
