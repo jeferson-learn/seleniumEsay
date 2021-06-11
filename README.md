@@ -16,12 +16,12 @@ O que estou fazendo:
 - [x] Date pickers
   - [x] Bootstrap Date Picker
   - [x] JQuery Date Picker
-- [ ] Table
+- [x] Table
   - [x] Table Pagination
   - [x] Table Data Search
   - [x] Table Filter
-  - [ ] Table Sort & Search
-  - [ ] Table Data Download
+  - [x] Table Sort & Search
+  - [x] Table Data Download
 - [ ] Progress Bars
   - [ ] JQuery Download Progress bars
   - [ ] Bootstrap Progress bar
