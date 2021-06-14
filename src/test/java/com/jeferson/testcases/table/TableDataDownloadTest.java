@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
 
 import static com.jeferson.framework.tools.Report.extentTest;
 
-public class TableDataDownload extends BaseTest {
+public class TableDataDownloadTest extends BaseTest {
     private final HomeTask homeTask = new HomeTask(driver);
     private final TableDataDownloadTask tableDataDownloadTask = new TableDataDownloadTask(driver);
 
