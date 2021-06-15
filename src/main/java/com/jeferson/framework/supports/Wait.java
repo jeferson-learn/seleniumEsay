@@ -1,5 +1,6 @@
 package com.jeferson.framework.supports;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,12 +26,22 @@ public class Wait {
         return wait.until(ExpectedConditions.elementToBeClickable(by));
     }
 
+    public Boolean waitStaleness(WebElement element){
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        return wait.until(ExpectedConditions.stalenessOf(element));
+    }
+
     public WebElement waitLoadElement(WebElement element){
         try {
             return new WebDriverWait(driver, 20).until(ExpectedConditions.visibilityOf(element));
         }catch (Exception e){
             return element;
         }
+    }
+
+    public Alert waitAlert(){
+        WebDriverWait wait = new WebDriverWait(driver, 20);
+        return wait.until(ExpectedConditions.alertIsPresent());
     }
 
 }
