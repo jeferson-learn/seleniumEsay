@@ -27,11 +27,11 @@ O que estou fazendo:
   - [x] Bootstrap Progress bar
   - [x] Drag & Drop Sliders
 - [ ] Alerts & Modals
-  - [ ] Bootstrap Alerts
-  - [ ] Bootstrap Modals
-  - [ ] Window Popup Modal
-  - [ ] Progress bar Modal
-  - [ ] Javascript Alerts
+  - [x] Bootstrap Alerts (ainda nao resolve aguardar mensagem desaparecer)
+  - [x] Bootstrap Modals
+  - [x] Window Popup Modal
+  - [x] Progress bar Modal
+  - [x] Javascript Alerts (Não consegue escrever no propmt)
   - [ ] File Download
 - [ ] List Box
   - [ ] Bootstrap List Box
