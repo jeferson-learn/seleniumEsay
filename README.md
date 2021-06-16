@@ -26,7 +26,7 @@ O que estou fazendo:
   - [x] JQuery Download Progress bars
   - [x] Bootstrap Progress bar
   - [x] Drag & Drop Sliders
-- [ ] Alerts & Modals
+- [x] Alerts & Modals
   - [x] Bootstrap Alerts (ainda nao resolve aguardar mensagem desaparecer)
   - [x] Bootstrap Modals
   - [x] Window Popup Modal
