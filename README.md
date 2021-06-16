@@ -32,7 +32,7 @@ O que estou fazendo:
   - [x] Window Popup Modal
   - [x] Progress bar Modal
   - [x] Javascript Alerts (Não consegue escrever no propmt)
-  - [ ] File Download
+  - [x] File Download
 - [ ] List Box
   - [ ] Bootstrap List Box
   - [ ] JQuery List Box
