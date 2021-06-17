@@ -33,10 +33,10 @@ O que estou fazendo:
   - [x] Progress bar Modal
   - [x] Javascript Alerts (Não consegue escrever no propmt)
   - [x] File Download
-- [ ] List Box
-  - [ ] Bootstrap List Box
-  - [ ] JQuery List Box
-  - [ ] Data List Filter
+- [x] List Box
+  - [x] Bootstrap List Box
+  - [x] JQuery List Box
+  - [x] Data List Filter
 - [ ] Others
   - [ ] Drag and Drop
   - [ ] Dynamic Data Loading
