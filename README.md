@@ -9,7 +9,7 @@ O que estou fazendo:
   - [x] Simple Form Demo
   - [x] Checkbox Demo
   - [x] Radio Buttons Demo
-  - [x] Select Dropdown List
+  - [x] Select Dropdown List (Selecionei dois ou mais, mas resultado só um)
   - [x] Input Form Submit
   - [x] Ajax Form Submit
   - [x] JQuery Select dropdown
@@ -45,3 +45,4 @@ O que estou fazendo:
 ## 🛠 Tecnologias
 [Intellij IDEA](https://www.jetbrains.com/pt-br/idea/)  
 JAVA 11
+Navegador Google Chrome
