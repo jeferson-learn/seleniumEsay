@@ -37,10 +37,10 @@ O que estou fazendo:
   - [x] Bootstrap List Box
   - [x] JQuery List Box
   - [x] Data List Filter
-- [ ] Others
-  - [ ] Drag and Drop
-  - [ ] Dynamic Data Loading
-  - [ ] Charts Demo
+- [x] Others
+  - [x] Drag and Drop
+  - [x] Dynamic Data Loading
+  - [x] Charts Demo (Nao tem como mexer alguma coisa para teste)
 
 ## 🛠 Tecnologias
 [Intellij IDEA](https://www.jetbrains.com/pt-br/idea/)  
