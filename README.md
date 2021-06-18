@@ -44,5 +44,5 @@ O que estou fazendo:
 
 ## 🛠 Tecnologias
 [Intellij IDEA](https://www.jetbrains.com/pt-br/idea/)  
-JAVA 11
+JAVA 11  
 Navegador Google Chrome
