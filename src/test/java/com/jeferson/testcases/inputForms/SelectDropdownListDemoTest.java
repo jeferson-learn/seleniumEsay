@@ -26,13 +26,22 @@ public class SelectDropdownListDemoTest extends BaseTest {
     }
 
     @Test
-    public void multiSelectListDemoTest() throws InterruptedException {
+    public void multiSelectListFirstSelectedDemoTest() {
+        Report.createTest("Teste 'Multi select list first selected demo'");
+        DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
+        extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
+        homeTask.entrarSelectDropdownList();
+        selectDropdownListDemoTask.multiSelectListFirstSelect("Ohio");
+    }
+
+    @Test
+    public void multiSelectListDemoTest() {
+        String [] list = {"Texas","Florida"};
         Report.createTest("Teste 'Multi select list demo'");
         DriverManager.getDriver().get(FileOperationsAndProperties.getPropertiesData("url", "seleniumEasy"));
         extentTest.log(Status.INFO, "Abriu a navegador no 'SELENIUM EASY'", Screenshot.screenshotBase64(driver));
         homeTask.entrarSelectDropdownList();
-//        selectDropdownListDemoTask.multiSelectListDemo();
-        selectDropdownListDemoTask.teste();
+        selectDropdownListDemoTask.multiSelectListGetAllSelect(list);
     }
 
 }
